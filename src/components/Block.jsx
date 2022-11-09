@@ -15,7 +15,6 @@ export const Block = ({ value, currency, onChangeValue, onChangeCurrency }) => {
             {item}
           </li>
         ))}
-        <p>v</p>
       </ul>
       <input onChange={(e) => onChangeValue(e.target.value)} className="input" type="number" value={value} placeholder={0}/>
     </div>
